@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+:root{
+  --bg-white: #ffffff;
+  --text: #000000;
+  --border: #000000;
+  --accent: #7299FE;
+  --accent-alt: #72CCFE;
+  --bg-dark: #343434;
+  --text-dark: #a3a3a3;
+  --accent-dark: #b2c7ff;
+  --accent-dark-alt: #b2e3ff;
+  --border-dark: #a3a3a3;
+  --bg-trans: #ffffff98;
+  --shadow: 0 4px 14px black;
+  --shadow-black: 0 0 40px var(--border-dark)
+}
+:root{
+  -shade: var(--shadow);
+  --bg: var(--bg-white);
+  --acc: var(--accent);
+  --bord: var(--border);
+  --accalt: var(--accent-alt);
+  --bg-o: var(--bg-trans);
+  --txt: var(--text);
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --shade: var(--shadow-black);
+    --bg: var(--bg-dark);
+    --acc: var(--accent-dark);
+    --bord: var(--border-dark);
+    --accalt: var(--accent-dark-alt);
+    --bg-o: var(--bg-dark);
+    --txt: var(--text-dark);
+  }
+}

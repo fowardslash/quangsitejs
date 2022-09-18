@@ -1,0 +1,28 @@
+@import "./var.css";
+body{
+  background-color: var(--bg);
+  color: var(--txt);
+  font-family: 'Inter', sans-serif;
+  margin: 0 250px 0 250px;
+}
+a{
+  color: var(--txt);
+  text-decoration: none;
+}
+a:hover{
+  font-weight: bold;
+  color: var(--acc);
+  text-decoration: solid;
+  text-decoration-color: var(--acc);
+  text-decoration-line: underline;
+  text-decoration-thickness: 2px;
+}
+h1{
+  font-size: 55px;
+}
+/* @media (prefers-color-scheme: dark) {
+  body{
+    background-color: var(--bg-dark);
+    color: var(--text-dark)
+  }
+} */
