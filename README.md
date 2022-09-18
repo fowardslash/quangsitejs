@@ -1,5 +1,9 @@
 # quangsite4.5
 
+# Dependencies
+
+#Vue.js (read below)
+
 This template should help get you started developing with Vue 3 in Vite.
 
 ## Recommended IDE Setup
@@ -26,4 +30,10 @@ npm run dev
 
 ```sh
 npm run build
+```
+
+#vue-router
+
+```sh
+npm install vue-router --save
 ```
